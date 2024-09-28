@@ -3,7 +3,6 @@
 
   int main (){
       
-      /*Écrivez un programme qui demande la température en Celsius et affiche l'état de l'eau à cette température (solide, liquide, gaz). Règle :*/
       float C ;
       printf("Veuillez entrer la temperature en Celsius : ") ;
       scanf ("%f", &C) ;

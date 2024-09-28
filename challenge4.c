@@ -3,7 +3,6 @@
 
   int main (){
       
-      /*Écrivez un programme qui demande la vitesse en kilomètres par heure (km/h) et la transforme en mètres par seconde (m/s). Formule :*/
       
       float km_h , m_s ;
       

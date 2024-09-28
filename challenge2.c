@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-/*Écrivez un programme qui demande la température en Celsius et la transforme en Kelvin. Formule :*/
 
 int main(){
     

@@ -3,7 +3,6 @@
 
   int main (){
       
-      /*Écrivez un programme en C qui va permettre d'afficher vos informations personnelles : nom, prénom, âge, sexe, et adresse email. Les données sont saisies à partir du clavier.*/
      
      char nom[20], prenom[20], sexe[10], email[50] ;
      int age ;

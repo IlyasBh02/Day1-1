@@ -3,7 +3,6 @@
 
   int main (){
       
-      /*Écrivez un programme qui demande la distance en kilomètres et la transforme en yards. Formule :*/
       
       float Yards, Km ;
       

@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
+  
+    int N,i;
+    float F =1 ;
+    printf("veuillez entre le number :");
+    scanf ("%d",&N) ;
     
-    int num, i, F ;
-    
-    printf("Veuillez entrer le nombre :");
-    scanf("%d", &num);
-    
-    F = 1 ;
-    
-      for (i=1 ; i<=num ;i++) {
-      F=F*i;
-      }
-      printf("Le factorielle de %d est : %d ",num,F);
-      
-
-    
+    if (N<0) {
+      printf("Veuillez entrer un nombre positife .\n") ;
+    }
+    else { 
+      for (int i=1;i<=N;i++)
+        F = F * i ;
+    }
+    printf("Le factorielle de %d est : %.2f",N,F) ;
+   
     return 0;
 }
