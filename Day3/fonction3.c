@@ -6,10 +6,10 @@ void max(int n1, int n2){
  if (n1>n2)
      printf("Le maximum c'est : %d",n1);
  else 
- printf("Le maximum c'est : %d",n2);
- 
+   printf("Le maximum c'est : %d",n2);
  
 }
+
 int main (){
     int n1,n2;
     int maximm; 

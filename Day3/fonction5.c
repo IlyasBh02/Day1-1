@@ -2,7 +2,7 @@
 
 int factorielle(int N){
     int F=1 ;
-    for (int i=1;i<=N;i++){
+    for (int i=2;i<=N;i++){
     F = F * i ;
     }
     return F ;
